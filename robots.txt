@@ -1,0 +1,20 @@
+# Robots.txt - Configuration des crawlers - L'Univers des Services de JM
+
+# Autoriser tous les robots
+User-agent: *
+Allow: /
+
+# Bloquer les répertoires non pertinents
+Disallow: /admin/
+Disallow: /.git/
+Disallow: /.well-known/
+Disallow: /*.json$
+
+# Respecter les délais de crawl
+Crawl-delay: 1
+
+# Plan du site
+Sitemap: https://powlo66.github.io/JM1/sitemap.xml
+
+# Temps avant nouvelle visite
+Request-rate: 1/10s
